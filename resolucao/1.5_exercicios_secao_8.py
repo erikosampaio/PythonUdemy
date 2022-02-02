@@ -1554,18 +1554,3 @@ str2 = input("Segunda frase: ")
 
 print(concatena_intercalado(str1, str2))
 """
-
-pessoas = {'Bruno': 25, 'Ana': 33, 'Paulo': 43}
-
-nomes = []
-idades = []
-pessoas_new = ''
-
-for nome, idade in pessoas.items():
-    nomes.append(nome)
-    idades.append(idade)
-    pessoas_new += nome + ' '
-
-print(pessoas_new)
-print(nomes)
-print(idades)
